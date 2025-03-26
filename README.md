@@ -1,16 +1,25 @@
-# README - Submission Belajar Machine Learning Pemula
+# 📌 Submission Belajar Machine Learning Pemula
 
-## 📌 Deskripsi Proyek
-Submission ini mencakup dua tahap utama dalam Machine Learning, yaitu **Clustering** dan **Klasifikasi**, dengan menggunakan dataset **[Beverage Sales](https://www.kaggle.com/datasets/sebastianwillmann/beverage-sales)**. Karena ukuran dataset yang besar, hanya **100.000 data** yang diambil secara acak untuk proses clustering.
+## Deskripsi Proyek
+Submission ini mencakup dua tahap utama dalam Machine Learning, yaitu **Clustering** dan **Klasifikasi**, dengan menggunakan dataset **[Beverage Sales](https://www.kaggle.com/datasets/sebastianwillmann/beverage-sales)**. Karena keterbatasan ukuran file pada GitHub, dataset tidak diunggah langsung ke repository ini.
+
+**🔗 Dataset dapat diunduh di Google Drive:**  
+[Dataset - Google Drive](https://drive.google.com/drive/folders/1X05fjFswZxqMOSt6t_SILc7n1RGmX233?usp=sharing)
+
+Hanya **100.000 data** yang diambil secara acak untuk proses clustering guna mengurangi beban komputasi.
+
+---
 
 ## 📂 Struktur File
 ```
 ├── Submission Belajar Machine Learning Pemula.zip
     ├── [Clustering] Submission Akhir BMLP_Kunti_Najma.ipynb
     ├── [Klasifikasi] Submission Akhir BMLP_Kunti_Najma.ipynb
-    ├── Dataset_clustering.csv
-    ├── Dataset_inisiasi.csv
+    ├── Dataset_clustering.csv  (Tersedia di Google Drive)
+    ├── Dataset_inisiasi.csv  (Tersedia di Google Drive)
 ```
+
+---
 
 ## 🔍 Tahapan Proyek
 
@@ -38,8 +47,17 @@ Submission ini mencakup dua tahap utama dalam Machine Learning, yaitu **Clusteri
   - **Naive Bayes**: Akurasi **0.988773**, F1-Score **0.988762**
 - **Membandingkan performa model berdasarkan hasil evaluasi**.
 
+---
+
 ## 📊 Hasil Analisis
 - **Random Forest memiliki performa lebih tinggi** dibanding Naive Bayes dengan **F1-Score 0.999074**.
 - **Naive Bayes tetap memiliki hasil yang baik** dengan **F1-Score 0.988762**, namun lebih rentan terhadap fitur tertentu.
 - Model **tidak mengalami overfitting**, karena hasil akurasi tinggi baik di training maupun testing set.
 - Clustering berhasil membentuk kelompok dengan karakteristik yang berbeda, yang berguna untuk klasifikasi lanjutan.
+
+---
+
+## 📜 Catatan
+Karena keterbatasan ukuran file di GitHub (**maksimum 100 MB**), dataset diunggah secara terpisah di Google Drive. Pastikan Anda mengunduh dataset sebelum menjalankan notebook.
+
+🚀 **Terima kasih! Semoga bermanfaat!**
